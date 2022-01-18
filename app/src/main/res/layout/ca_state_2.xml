@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMedium" >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="0dp"
+        android:layout_marginTop="@dimen/toolbar_padding"
+        android:paddingTop="@dimen/toolbar_padding"
+        android:padding="0dp"
+        android:paddingLeft="0dp"
+        android:layout_marginBottom="0dp"
+        android:showDividers="end"
+        android:clickable="false"
+        android:focusable="false">
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="@dimen/toolbar_padding"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="@android:dimen/thumbnail_width"
+                android:layout_height="@android:dimen/thumbnail_width"
+                android:id="@+id/ca_thumbnail"
+                android:background="@android:color/background_dark"
+                android:adjustViewBounds="false"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/row_save"
+                android:gravity="left"
+                android:layout_gravity="left"
+                android:layout_marginLeft="@dimen/tatOptions_padding1"
+                android:layout_marginRight="0dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"
+                android:padding="@dimen/tabs_padding">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ca_sharebutton"
+                    android:longClickable="true"
+                    android:enabled="true"
+                    android:clickable="true"
+                    android:src="@drawable/ca_share"
+                    android:background="@color/colorPrimaryDark"
+                    android:padding="@dimen/tabs_padding"
+                    android:nestedScrollingEnabled="false"
+                    style="@style/AppTheme"
+
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/tabs_padding" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Share It"
+                    android:id="@+id/ca_sharebutton_txt"
+                    android:layout_gravity="center_vertical|fill"
+                    style="@style/AppTheme"
+                    android:clickable="true"
+                    android:contentDescription="Share It"
+                    android:enabled="true"
+                    android:paddingLeft="@dimen/toolbar_padding"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textIsSelectable="true"
+                    android:textStyle="bold"
+                    android:typeface="normal"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="left|center_vertical"
+                    android:layout_marginLeft="@dimen/toolbar_padding" />
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/row_share"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="@dimen/tatOptions_padding2"
+                android:layout_marginRight="0dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:padding="@dimen/tabs_padding"
+                android:clickable="false"
+                android:elevation="0dp"
+                android:focusable="true">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ca_tatbutton"
+                    android:longClickable="true"
+                    android:enabled="true"
+                    android:clickable="true"
+                    android:src="@drawable/ca_tat"
+                    android:background="@color/colorPrimaryDark"
+                    android:nestedScrollingEnabled="false"
+                    style="@style/AppTheme"
+
+                    android:contentDescription="Tat"
+                    android:layout_margin="@dimen/tabs_padding"
+                    android:layout_marginLeft="0dp"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/tabs_padding"
+                    android:focusable="true" />
+
+
+
+                <TextView
+                    style="@style/AppTheme"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Make a Tat"
+                    android:id="@+id/ca_tatbutton_txt"
+                    android:layout_gravity="center_vertical|fill"
+                    android:clickable="true"
+                    android:contentDescription="Tat"
+                    android:enabled="true"
+                    android:paddingLeft="@dimen/toolbar_padding"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textIsSelectable="true"
+                    android:textStyle="bold"
+                    android:typeface="normal"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_marginLeft="@dimen/toolbar_padding"
+                    android:gravity="center_vertical" />
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

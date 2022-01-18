@@ -1,0 +1,54 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cathairapocalypse="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_cat"
+        android:orderInCategory="100"
+        android:title="Cat"
+        android:icon="@drawable/ic_cat"
+        cathairapocalypse:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="200"
+        android:title="Add Cathair"
+        android:icon="@drawable/ic_add"
+        cathairapocalypse:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_remove"
+        android:orderInCategory="300"
+        android:title="Remove Cathair"
+        android:icon="@drawable/ic_remove"
+        cathairapocalypse:showAsAction="always" />
+
+
+
+    <item
+        android:id="@+id/action_rotate90"
+        android:orderInCategory="400"
+        android:title="Rotate 90"
+        android:icon="@drawable/ic_rotate90"
+        cathairapocalypse:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_mirror"
+        android:orderInCategory="500"
+        android:title="Mirror Image"
+        android:icon="@drawable/ic_mirror"
+        cathairapocalypse:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_flip"
+        android:orderInCategory="600"
+        android:title="Flip Layers"
+        android:icon="@drawable/ic_flip"
+        cathairapocalypse:showAsAction="always" />
+
+
+
+
+</menu>

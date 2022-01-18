@@ -1,0 +1,16 @@
+<resources>
+
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimary">#1B1B1B</color>
+    <color name="colorSecondary">#2D2D2D</color>
+    <color name="colorTertiary">#4E4E4E</color>
+    <color name="colorMedium">#777777</color>
+    <color name="textColorLight">#BBBBBB</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="tabsScrollColor">#FF9900</color>
+
+
+    <!-- colorAccent is used as the default value for colorControlActivated
+     which is used to tint widgets -->
+    <color name="colorAccent">#FF9900</color>
+</resources>

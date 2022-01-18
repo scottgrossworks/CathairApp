@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">#CathairApp</string>
+    <string name="logo_description">#CathairApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="goto_url">http://cathairapocalypse.com/#tats</string>
+    <string name="cathair_url">http://cathairapocalypse.com/APP</string>
+    <string name="cathair_xml">download_cathairs.xml</string>
+    <string name="share_txt">\@LordCutemungus </string>
+
+</resources>

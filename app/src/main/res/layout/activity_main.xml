@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <include
+        android:id="@+id/ca_header"
+        layout="@layout/ca_toolbar" />
+
+
+
+    <com.cathairapocalypse.app.CA_SlidingTabLayout
+        android:id="@+id/ca_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <com.cathairapocalypse.app.CA_ViewPager
+        android:id="@+id/ca_pager"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1" />
+
+
+
+    <include
+        android:id="@+id/ca_footer"
+        layout="@layout/ca_toolbar"
+        />
+
+</LinearLayout>  
